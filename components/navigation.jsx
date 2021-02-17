@@ -12,8 +12,8 @@ function Navigation({
                     <div className="wrap">
                         <a href={linkIndex} id="logo"><img loading="lazy" src={logo} alt={logoAlt}/></a>
 
-                        <ul className={`navbar navlinks${borderless}`}>
-                            <li dangerouslySetInnerHTML={{ __html: children }}></li>
+                        <ul className={`navbar navlinks${borderless}`}
+                            dangerouslySetInnerHTML={{ __html: children }}>
                         </ul>
                     </div>
                 </div>
