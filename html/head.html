@@ -20,6 +20,18 @@
         <link rel="search" type="application/opensearchdescription+xml" href="/improvedsearch.xml" title="{SITENAME}"/>
         <link rel="search" type="application/opensearchdescription+xml" href="{URL_BOARD_DIRECTORY}/search/improvedsearch.xml" title="{SEARCH_FORUMS}"/>
 
+        <!-- BEGIN global template variables -->
+        <script type="text/javascript">
+            window.header = {
+                U_INDEX: {U_INDEX},
+                LOGO: {LOGO},
+                L_INDEX: {L_INDEX},
+                NAVBAR_BORDERLESS: {NAVBAR_BORDERLESS},
+                GENERATED_NAV_BAR: {GENERATED_NAV_BAR},
+            }
+        </script>
+        <!-- END global template variables -->
+
         <!-- BEGIN React with babel -->
         <script src="https://unpkg.com/react@17/umd/react.development.js" type="text/javascript" rel="preload"></script>
         <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" type="text/javascript" rel="preload"></script>
