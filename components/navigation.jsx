@@ -13,7 +13,7 @@ function Navigation({
                         <a href={linkIndex} id="logo"><img loading="lazy" src={logo} alt={logoAlt}/></a>
 
                         <ul className={`navbar navlinks${borderless}`}>
-                            <li>{children}</li>
+                            <li dangerouslySetInnerHTML={{ __html: children }}></li>
                         </ul>
                     </div>
                 </div>
